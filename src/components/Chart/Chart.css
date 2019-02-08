@@ -1,0 +1,48 @@
+.Candle-Wick path {
+    stroke-linejoin: round;
+    stroke-width: 2px;
+}
+
+.Candle rect {
+    rx: 2px;
+    ry: 2px;
+
+    stroke-linejoin: round;
+    fill-opacity: 1;
+}
+
+.ToShort {
+    fill: green;
+}
+
+.RightBar {
+    stroke: rgb(176, 189, 206);
+    font-weight: 100;
+}
+
+.RightBar line {
+    display: none;
+}
+
+.BottomBar {
+    stroke: rgb(176, 189, 206);
+}
+
+.BottomBar path, .BottomBar line {
+    display: none;
+}
+
+.react-stockcharts-tooltip {
+    fill: #333333;
+    font: 20;
+    transform: translateY(-20px)
+}
+
+#root {
+    background-color: #ffffff;
+    background-position: center center;
+    background: linear-gradient( rgba(220, 220, 220, .5), transparent 1px),
+    linear-gradient(90deg, rgba(220, 220, 220, .5), transparent 1px);
+
+    background-size: 15px 15px;
+}
